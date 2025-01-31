@@ -1,0 +1,29 @@
+#intro {
+  border: 2px solid blue;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+#intro .intro-left {
+  border: 2px solid red;
+}
+
+#intro .intro-right {
+  border: 2px solid green;
+}
+
+#intro .intro-right .container {
+  background-color: aquamarine;
+}
+
+#intro .intro-right .container .pic {
+  width: 28rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#intro .intro-right .container .pic img {
+  width: 100%;
+}

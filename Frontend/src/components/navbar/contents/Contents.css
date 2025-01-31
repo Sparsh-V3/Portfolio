@@ -1,0 +1,6 @@
+#contents {
+  border: 2px solid black;
+  width: fit-content;
+  gap: 4rem;
+  display: flex;
+}
